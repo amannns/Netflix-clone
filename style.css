@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+}
+
+.navbar{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+}
+.logoimage{
+    height: 150%;
+    width: 140%;
+}
+
+.navoptions{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-items: center;
+    align-items: center;
+}
+
+#navlang{
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    height: 50%;
+    outline: auto;
+    margin: 3vw;
+    
+}
+.signinbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    height:50%;
+    width: 30%;
+    font-size: large;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 5px rgb(63, 63, 63) solid;
+}
+.getstarted{
+    height: 70%;
+    padding: 10px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+}
+#emailaddress{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+}
+/*  */
+
+.containertwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 5px rgb(63, 63, 63) solid;
+}
+.containerthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 5px rgb(63, 63, 63) solid;
+}
+
+.containerfour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 5px rgb(63, 63, 63) solid;
+}
+.containerfive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 5px rgb(63, 63, 63) solid;
+}
+.containersix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 5px rgb(63, 63, 63) solid;
+}
+.containerseven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.textContainer{
+    color: white;
+    text-align: left;
+}
+.FrequentlyAsk{
+    height: 60%;
+    width: 70%;
+    font-size: x-large;
+}
+#heading{
+    padding-bottom: 10vh;
+}
